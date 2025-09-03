@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio">
+  <meta name="keywords" content="html,css,js,javascript,bootstrap">
+  <meta name="author" content="Portfolio">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Laura
+  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<style>
+  .hero-typing{ 
+  font-size:45px !important;   /* 지금보다 절반 크기 */
+  font-weight:900 !important;  /* 두껍게 */
+  line-height:1.3; 
+  text-align:center; 
+}
+
+@media (max-width:992px){ 
+  .hero-typing{ font-size:32px !important; }  /* 태블릿 */
+}
+@media (max-width:576px){ 
+  .hero-typing{ font-size:24px !important; }  /* 모바일 */
+}
+.hero-typing .cursor::after{
+  content:""; 
+  display:inline-block; 
+  width:6px; height:1em;
+  background:currentColor; 
+  margin-left:6px; 
+  vertical-align:-2px;
+  animation:blink 1s step-end infinite;
+}
+
+@keyframes blink{ 50%{opacity:0} }
+</style>
+
+</head>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <h1 class="sitename font">Portfolio</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>          
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>     
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/사진.jpg" alt="" data-aos="fade-in">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="300">
+        <!-- <h1>Portfolio</h1> -->
+        <p class="hero-typing">
+        <span id="type1"></span><br>
+        <span id="type2"></span>
+        </p>
+
+     
+
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section second-section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">About Me</span>
+        <h2>Who I AM</h2>
+        <p style="font-size: 22px;">AI와 창의성이 만나 브랜드를 성장시킵니다</p>
+      </div>
+
+      <div class="container px-lg-0" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4  gx-lg-0 justify-content-center">
+          <div class="col-lg-8 content order-lg-1 order-1">
+            <h2>AI & Creative Designer | UX/UI Specialist | E-commerce Visual Strategist</h2>
+            <p class="fst-italic py-3 red-text">
+              “AI와 디자인을 결합해 성과로 이어지는 크리에이티브 전문가”</p>
+          </div>
+          <div class="col-lg-4 order-lg-2 order-2 d-flex justify-content-end pe-lg-0">
+              <img src="./assets/img/사진1.jpg" class="img-fluid" alt="">
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    
+
+    <!-- Services Section -->
+    <section id="skill" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">My Services</span>
+        <h2>My Services</h2>
+        <p>쇼핑몰 매출을 높이는 상세페이지·AI 디자인·3D 비주얼·SNS 마케팅 콘텐츠를 제작합니다</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">상세페이지 디자인</a></h4>
+              <p>제품 특징을 돋보이게 하는 고퀄리티 상세페이지와 배너를 제작합니다</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">AI 콘텐츠 제작</a></h4>
+              <p>최신 AI툴을 활용해 차별화된 이미지 영상 콘텐츠를 제공합니다</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">3D 제품 비주얼</a></h4>
+              <p>입체감 있는 3D 모델링과 모션을 제작합니다</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">SNS 마케팅 디자인</a></h4>
+              <p>인스타그램 블로그 유튜브용 카드뉴스와 썸네일로 고객 유입을 극대화합니다</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        
+      </div>
+
+    </section><!-- /Services Section -->
+
+   
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Portfolio</span>
+        <h2>Portfolio</h2>
+        <p>AI와 3D로 완성한 감각적인 쇼핑몰 디자인 포트폴리오입니다</p>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid">
+
+  <!-- ===== PORTFOLIO FILTER + GRID (통째 복붙) ===== -->
+
+
+  <!-- Filters -->
+  <!-- <ul id="portfolio-flters" class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+    <li data-filter="*" class="filter-active">All</li>
+    <li data-filter=".filter-app">피그마</li>
+    <li data-filter=".filter-product">디자인</li>
+    <li data-filter=".filter-branding">영상</li>
+    <li data-filter=".filter-books">WEB</li>
+  </ul> -->
+
+  <!-- Grid -->
+  <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200">   
+
+  </div><!-- .row -->
+</div><!-- .isotope-layout -->
+<!--  
+   피그마시작 -->
+   <section id="portfolio-zigzag" class="container">
+
+  <!-- Row 1: 썸네일 | 원통 -->
+  <div class="zz-row filter-app">
+    <div class="cell thumb">
+      <a class="glightbox" href="assets/img/works/figma/figma-01-1.png" data-gallery="zigzag" >
+        <img src="assets/img/works/figma/works-09.gif" alt="스니커즈 나이키 컬렉션">
+      </a>
+    </div>
+    <div class="cell desc">
+      <a class="cyl-card" href="#">
+        <div class="cyl" style="--cyl-grad: linear-gradient(145deg,#0f2027,#203a43,#2c5364);">
+          <div class="cyl-panel">
+            <h4 class="title type-js" data-text="스니커즈 나이키 컬렉션"></h4>
+            <p  class="sub   type-js" data-text="발끝에서 시작되는 스타일 혁명"></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Row 2: 원통 | 썸네일 -->
+  <div class="zz-row">
+    <div class="cell desc">
+      <a class="cyl-card" href="#">
+        <div class="cyl" style="--cyl-grad: linear-gradient(145deg,#5a3a1b,#7a5330,#a87845);">
+          <div class="cyl-panel">
+            <h4 class="title type-js" data-text="Fresh Fruit Collection"></h4>
+            <p  class="sub   type-js" data-text="싱싱함을 그대로 담은 건강함"></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="assets/img/works/figma/figma-02-1.png" data-gallery="zigzag">
+        <img src="assets/img/works/figma/works-10.gif" alt="Fresh Fruit Collection">
+      </a>
+    </div>
+  </div>
+
+  <!-- Row 3: 썸네일 | 원통 -->
+  <div class="zz-row">
+    <div class="cell thumb">
+      <a class="glightbox" href="assets/img/works/figma/figma-03-1.png" data-gallery="zigzag">
+        <img src="assets/img/works/figma/works-11.gif" alt="복숭아 과일컷">
+      </a>
+    </div>
+    <div class="cell desc">
+      <a class="cyl-card" href="#">
+        <div class="cyl" style="--cyl-grad: linear-gradient(145deg,#e9dcc7,#d7c2a2,#c9ad86);">
+          <div class="cyl-panel">
+            <h4 class="title type-js" data-text="한입 가득 퍼지는 과즙의 즐거움"></h4>
+            <p  class="sub   type-js" data-text="자연 그대로의 달콤함"></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Row 4: 원통 | 썸네일 -->
+  <div class="zz-row">
+    <div class="cell desc">
+      <a class="cyl-card" href="#">
+        <div class="cyl" style="--cyl-grad: linear-gradient(145deg,#ffc3a0,#ffafbd,#ff9bb1);">
+          <div class="cyl-panel">
+            <h4 class="title type-js" data-text="Hello Peach 캐릭터"></h4>
+            <p  class="sub   type-js" data-text="귀여움으로 완성하는 나만의 굿즈"></p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="assets/img/works/figma/figma-04-1.png" data-gallery="zigzag">
+        <img src="assets/img/works/figma/works-12.gif" alt="Hello Peach 캐릭터 굿즈">
+      </a>
+    </div>
+  </div>
+    
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+<section id="portfolio-zigzag" class="section feature-card center-left">
+  <div class="zigzag" data-aos="fade-up" data-aos-delay="120">
+
+  
+
+    <!-- Row 2: 설명 | 썸네일  (지그재그) -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>유약의 심포니</h3>
+        <ul>
+          <li>빛과 색의 교향곡</li>
+          <li>예술과 기능의 조화</li>
+          <li>한 점의 예술</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-12.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-12.gif" alt="모바일 과일몰 랜딩 리디자인">
+      </a>
+    </div>
+
+    <!-- Row 3: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-13.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-13.gif" alt="기장 하루 코스 3단 브로슈어">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>세라믹에 담긴 자연의 팔레트</h3>
+        <ul>
+          <li>자연을 담은 빛깔</li>
+          <li>일상 속 작은 전시회</li>
+          <li>감각적인 테이블 웨어</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row 4: 설명 | 썸네일 -->
+    <!-- <div class="cell desc">
+      <div class="desc-inner">
+        <h3>셀렉티브 캠페인 키비주얼</h3>
+        <ul>
+          <li>주목색(옐로우)로 핵심 강조</li>
+          <li>사선 레이아웃 시선 유도</li>
+          <li>참여 유도 스티커 톤</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-04.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-04.gif" alt="셀렉티브 캠페인 키비주얼">
+      </a>
+    </div> -->
+
+  </div>
+</section>
+
+<section id="portfolio-zigzag" class="section">
+  <div class="zigzag" data-aos="fade-up" data-aos-delay="120">
+
+    <!-- Row 1: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/video/works-05.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/video/works-05.gif" alt="오늘부터 바로 쓰는 AI툴 7">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Big Event Promotion</h3>
+        <ul>
+          <li>화려한 컬러와 그래픽으로 강렬한 시선 집중</li>
+          <li>쇼핑몰·프로모션 배너에 최적화된 광고 영상</li>
+          <li>이벤트 참여율과 구매 전환율을 높이는 효과</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row 2: 설명 | 썸네일  (지그재그) -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Strawberry Ice Cream Ad</h3>
+        <ul>
+          <li>발랄한 톤과 컬러로 제품 매력을 극대</li>
+          <li>카페·디저트 브랜드 광고에 활용 가능</li>
+          <li>소비자의 감각을 자극하는 생생한 비주얼</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/video/works-06.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/video/works-06.gif" alt="모바일 과일몰 랜딩 리디자인">
+      </a>
+    </div>
+
+    <!-- Row 3: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/video/works-07.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/video/works-07.gif" alt="기장 하루 코스 3단 브로슈어">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Velvet Lip Ad</h3>
+        <ul>
+          <li>세련된 무드와 고급스러운 질감 표현</li>
+          <li>뷰티·코스메틱 브랜드 마케팅에 적</li>
+          <li>제품 고급 이미지를 강화하는 효과적 연출</li>
+        </ul>
+      </div>
+    </div>
+
+  
+
+  </div>
+</section>
+
+<!-- 복사부분 시작 -->
+<section id="portfolio-zigzag" class="section">
+  <div class="zigzag" data-aos="fade-up" data-aos-delay="120">
+
+    <!-- Row 1: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-01.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-01.gif" alt="오늘부터 바로 쓰는 AI툴 7">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>오늘부터 바로 쓰는 AI툴 7</h3>
+        <ul>
+          <li>누구나 손쉽게 활용하는 필수 도구</li>
+          <li>콘텐츠 제작 속도를 확 끌어올리는 힘</li>
+          <li>클릭 한번으로 새로운 가능성</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row 2: 설명 | 썸네일  (지그재그) -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>모바일 과일몰 랜딩 디자인</h3>
+        <ul>
+          <li>5초 시선 고정 헤더</li>
+          <li>카테고리·배너</li>
+          <li>쇼핑이 즐겁고 다시 방문하고 싶은 경험</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-02.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-02.gif" alt="모바일 과일몰 랜딩 리디자인">
+      </a>
+    </div>
+
+    <!-- Row 3: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-03.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-03.gif" alt="기장 하루 코스 3단 브로슈어">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>기장 하루 코스 3단 브로슈어</h3>
+        <ul>
+          <li>길 잃을 걱정없는 똑똑한 안내</li>
+          <li>포인트 컷 하이라이트</li>
+          <li>한 장으로 완성되는 하루 여행 코스</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row 4: 설명 | 썸네일 -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>셀렉티브 캠페인 키비주얼</h3>
+        <ul>
+          <li>주목색(옐로우)로 핵심 강조</li>
+          <li>사선 레이아웃 시선 유도</li>
+          <li>참여 유도 스티커 톤</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/works/design/works-04.gif" data-gallery="zigzag">
+        <img src="./assets/img/works/design/works-04.gif" alt="셀렉티브 캠페인 키비주얼">
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section id="portfolio-zigzag" class="section">
+  <div class="zigzag" data-aos="fade-up" data-aos-delay="120">
+
+    <!-- Row 1: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/3dw/01-rabbit.gif" data-gallery="zigzag">
+        <img src="./assets/img/3dw/01-rabbit.gif" alt="오늘부터 바로 쓰는 AI툴 7">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Forest Scene</h3>
+        <ul>
+          <li>감각적인 3D 비주얼 연출</li>
+          <li>게임·애니메이션 콘셉트 활용 가능</li>
+          <li>자연스러운 색감으로 몰입감 강화</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row 2: 설명 | 썸네일  (지그재그) -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Ocean Life</h3>
+        <ul>
+          <li>차분한 톤의 바다 생명 연출</li>
+          <li>교육·환경 캠페인 비주얼에 적합</li>
+          <li>시각적 서정성과 감성 전달에 효과적</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/3dw/02-sea.gif" data-gallery="zigzag">
+        <img src="./assets/img/3dw/02-sea.gif" alt="모바일 과일몰 랜딩 리디자인">
+      </a>
+    </div>
+
+    <!-- Row 3: 썸네일 | 설명 -->
+     
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/3dw/03-candy.gif" data-gallery="zigzag">
+        <img src="./assets/img/3dw/03-candy.gif" alt="기장 하루 코스 3단 브로슈어">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Sweet Motion</h3>
+        <ul>
+          <li>입체적인 컬러 & 그래픽 디자인</li>
+          <li>광고·브랜딩 콘텐츠에 활용 가능</li>
+          <li>달콤하고 발랄한 무드로 시선 집</li>
+        </ul>
+      </div>
+    </div> 
+    <!-- Row 2: 설명 | 썸네일  (지그재그) -->
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>Heart & Joy</h3>
+        <ul>
+          <li>투명 오브제 속 감성적 연출</li>
+          <li>이벤트·프로모션 디자인에 적합</li>
+          <li>사랑·설렘 메시지를 직관적으로 전달</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/3dw/04-heart.png" data-gallery="zigzag">
+        <img src="./assets/img/3dw/04-heart.png" alt="모바일 과일몰 랜딩 리디자인">
+      </a>
+    </div>
+    <!-- Row 1: 썸네일 | 설명 -->
+    <div class="cell thumb">
+      <a class="glightbox" href="./assets/img/3dw/05-flashsale.png" data-gallery="zigzag">
+        <img src="./assets/img/3dw/05-flashsale.png" alt="오늘부터 바로 쓰는 AI툴 7">
+      </a>
+    </div>
+    <div class="cell desc">
+      <div class="desc-inner">
+        <h3>3D Typography</h3>
+        <ul>
+          <li>강렬한 3D 레터링 효과</li>
+          <li>세일 프로모션 비주얼에 최적화</li>
+          <li>상업성과 트렌디함을 동시 표현</li>
+        </ul>
+      </div>
+    </div> 
+   
+
+  </div>
+</section>
+
+
+<!-- 복사부분 끝 -->
+
+
+<!-- 갤러리 재작업부분 시작 -->
+ 
+
+<section id="portfolio-zigzag-1" class="section">
+  <div class="zigzag" data-aos="fade-up" data-aos-delay="120">
+    
+
+    <!-- Row 1: 썸네일 | 설명 -->
+  
+     <!-- Gallery Section -->
+
+
+          
+     <!-- Portfolio Hover Grid Section -->
+
+
+
+
+   
+
+
+
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Contact</span>
+        <h2>Contact</h2>
+        <p>쇼핑몰 디자인·마케팅 협업 문의는 언제든 환영합니다. 빠른 답변 드리겠습니다</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center">
+              <!-- justify-content-center 가로사진  align-items-center 세로사진 -->
+              <i class="bi bi-geo-alt"></i>
+              <h3>KakaoTalk/ Open Chat</h3>
+              <p>실시간 상담: 카카오톡 오픈채팅 링크</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center info-item-borders">
+              <i class="bi bi-telephone"></i>
+              <h3>Work With Me</h3>
+              <p>프로젝트 의뢰 및 협업은 언제든 환영합니다</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-envelope"></i>
+              <h3>Location</h3>
+              <p>Online. 전국 어디서든 가능</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4  mt-5">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+            
+
+              <button type="submit" class="btn btn-info">Send Message</button>
+              <button type="reset" class="btn btn-info">Reset Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container">
+     
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename text-success">Jungnahyun</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- (필수) 벤더 스크립트: GLightbox / Isotope 가 여기 있어야 클릭, 필터가 정상 동작 -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+<!-- 메인 스크립트 -->
+<script src="assets/js/main.js"></script>
+
+<!-- 타이핑: 2줄, 무한 반복 -->
+<script>
+(function(){
+  const el1 = document.getElementById('type1');
+  const el2 = document.getElementById('type2');
+  if (!el1 || !el2) return;
+
+  function typeLine(el, text, speed, done){
+    const chars = Array.from(text); let i = 0;
+    el.classList.add('cursor');
+    (function tick(){
+      el.textContent = chars.slice(0, ++i).join('');
+      if (i < chars.length) return setTimeout(tick, speed);
+      el.classList.remove('cursor');
+      done && setTimeout(done, 400);
+    })();
+  }
+  function eraseLine(el, speed, done){
+    let i = el.textContent.length;
+    el.classList.add('cursor');
+    (function back(){
+      el.textContent = el.textContent.slice(0, --i);
+      if (i > 0) return setTimeout(back, speed);
+      el.classList.remove('cursor');
+      done && setTimeout(done, 300);
+    })();
+  }
+  function play(){
+    typeLine(el1, '오늘보다 더 나은 내일을 꿈꾸며', 80, function(){
+      typeLine(el2, '매일 성장하는 이커머스 & 크리에이티브 디자인 전문가입니다.', 80, function(){
+        setTimeout(function(){
+          eraseLine(el2, 40, function(){
+            eraseLine(el1, 40, function(){
+              setTimeout(play, 400);
+            });
+          });
+        }, 1200);
+      });
+    });
+  }
+  play();
+})();
+</script>
+<!-- ZigZag typewriter 전용 스크립트 -->
+<script>
+  function typewriter(el, speed=35){
+    if(el.dataset.typed === '1') return;
+    const full = el.dataset.text || '';
+    el.textContent = '';
+    el.dataset.typed = '1';
+    let i = 0;
+    (function tick(){
+      if(i <= full.length){
+        el.textContent = full.slice(0, i++);
+        setTimeout(tick, speed);
+      }
+    })();
+  }
+
+  const cyls = document.querySelectorAll('#portfolio-zigzag .cyl');
+  const ioType = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.querySelectorAll('.type-js').forEach((node, idx)=>{
+          const spd   = idx === 0 ? 30 : 22;
+          const delay = idx === 0 ? 0  : 120;
+          setTimeout(()=> typewriter(node, spd), delay);
+        });
+        ioType.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.45 });
+
+  cyls.forEach(el => ioType.observe(el));
+</script>
+
+
+</body>
+</html>
+
+  
+
+
